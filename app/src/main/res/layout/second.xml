@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/b1"
+        android:text="Button 1"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/b2"
+        android:text="Button 2"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:id = "@+id/container"
+        android:background="@color/colorAccent"
+        android:layout_width = "match_parent"
+        android:layout_height = "300dp"
+        android:orientation = "vertical">
+    </LinearLayout>
+
+</LinearLayout>
